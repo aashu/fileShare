@@ -3,7 +3,6 @@ const mongoose = require('mongoose')
 
 connectDB = () => {
     mongoose.connect(process.env.MONGO_CONNECTION_URL)
-    // useNewUrlParser, useCreateIndex, useUnifiedTopolyg, useFindAndModify
     const db = mongoose.connection
     db.on('open', () => {
         console.log('db connected')

@@ -39,8 +39,4 @@ router.post("/", (req, res) => {
   });
 });
 
-router.get(':uuid', (req, res) => {
-    
-})
-
 module.exports = router;
