@@ -6,10 +6,14 @@
   "author": "Ashutosh Malviya",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
+  },
+  "engines": {
+    "node": "18.3.0"
   },
   "dependencies": {
     "@supercharge/strings": "^1.28.0",
